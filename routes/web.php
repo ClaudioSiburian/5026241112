@@ -2,6 +2,10 @@
 
 use Illuminate\Support\Facades\Route;
 
+use App\Http\Controllers\DosenController;
+use App\Http\Controllers\PegawaiController ;
+use App\Http\Controllers\PegawaiDBController ;
+
 Route::get('/', function () {
     return view('welcome');
 });
