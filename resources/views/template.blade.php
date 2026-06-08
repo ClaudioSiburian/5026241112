@@ -27,10 +27,10 @@
             <a class="nav-link" href="#">PR 1</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="/keranjang">D4</a>
+            <a class="nav-link" href="/keranjang">Keranjang</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">PR 3</a>
+            <a class="nav-link" href="/nilaikuliah">Nilai</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="#">EAS</a>
