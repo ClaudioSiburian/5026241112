@@ -30,7 +30,7 @@
             <a class="nav-link" href="/keranjang">Keranjang</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="/nilaikuliah">Nilai</a>
+            <a class="nav-link" href="/nilaikuliah">Nilai</a> 
         </li>
         <li class="nav-item">
             <a class="nav-link" href="#">EAS</a>
