@@ -7,6 +7,7 @@ use App\Http\Controllers\PegawaiDBController ;
 use App\Http\Controllers\SiswaController;
 use App\Http\Controllers\NilaiKuliahController;
 use App\Http\Controllers\BelanjaController;
+use App\Http\Controllers\KopiController;
 
 Route::get('/', function () {
     return view('welcome');
@@ -90,3 +91,12 @@ Route::get('/keranjang', [BelanjaController::class, 'index'])->name('keranjangbe
 Route::get('/keranjang/beli', [BelanjaController::class, 'beli'])->name('keranjangbelanja.beli');
 Route::post('/keranjang/store', [BelanjaController::class, 'store'])->name('keranjangbelanja.store');
 Route::get('/keranjang/batal/{id}', [BelanjaController::class, 'batal']);
+
+// route CRUD Kopi
+Route::get('/kopi', [KopiController::class, 'index'])->name('kopi.index');
+Route::get('/kopi/tambah', [KopiController::class, 'tambah']);
+Route::post('/kopi/store', [KopiController::class, 'store']);
+Route::get('/kopi/edit/{id}', [KopiController::class, 'edit']);
+Route::post('/kopi/update', [KopiController::class, 'update']);
+Route::get('/kopi/hapus/{id}', [KopiController::class, 'hapus']);
+Route::get('/kopi/cari', [KopiController::class, 'cari']);
